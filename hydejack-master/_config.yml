@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: https://civilsteward.github.io
+url:                   https://domain.tld
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -24,14 +24,16 @@ title:                 Hydejack
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Establishing Data Governance
+  "Best Jekyll Theme by a Mile".
+  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
-#tagline:               >
-
+tagline:               >
+  "Best Jekyll Theme by a Mile".
+  Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
-keywords:              [data governance, data stewardship, stewardship, data steward, steward]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -324,7 +326,7 @@ relative_links:
 titles_from_headings:
   strip_title:         true
   collections:         true
-
+  
 replace_img:
   re_img:              <img\s*(?<attrs>.*?)\s*/>
   re_ignore:           (re|data)-ignore
